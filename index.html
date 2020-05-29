@@ -3,7 +3,9 @@
   <head>
     <title>Demo Example</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -15,17 +17,48 @@
   <body>
     <h2>Demo Iframes</h2>
 
-    <div class="embed-responsive embed-responsive-16by9">
+    <!-- <div class='embed-container'>
+      <iframe src='https://www.youtube.com/embed/QILiHiTD3uc' frameborder='0' allowfullscreen>
+      </iframe>
+      </div> -->
+
+    <!-- <div
+      id="map-container"
+      class="z-depth-1-half map-container"
+      style="height: 500px;"
+    >
+      <iframe
+        src="https://one-case-sim.herokuapp.com/"
+        frameborder="0"
+        style="border: 0;"
+        allowfullscreen
+      >
+      </iframe>
+    </div> -->
+
+    <div
+      id="dash-container"
+      class="z-depth-1-half dash-container"
+     
+    >
+      <iframe
+        src="https://one-case-sim.herokuapp.com/"
+        frameborder="0"
+        style="border: 0;"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- <div class="embed-responsive embed-responsive-16by9">
       <iframe
         class="embed-responsive-item"
         src="https://one-case-sim.herokuapp.com/"
         style="border: none;"
       >
       </iframe>
-    </div>
+    </div> -->
 
     <!-- <iframe src="https://one-case-sim.herokuapp.com/" height="2000" width="1400" style="border:none;">
 </iframe> -->
-
   </body>
 </html>

@@ -1,13 +1,13 @@
-.myframe-container {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-.myframe-container iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
+.dash-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:100vh;
+  }
+  .dash-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
